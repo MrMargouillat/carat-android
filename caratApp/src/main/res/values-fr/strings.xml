@@ -100,7 +100,7 @@
     <string name="menu_feedback">Envoyé un feedback</string>
     <string name="menu_settings">Paramètres</string>
     <string name="menu_about">A propos</string>
-    <string name="menu_website">Visit homepage</string>
+    <string name="menu_website">Visiter la page d\'accueil</string>
 
     <!-- BUGS -->
     <string name="what_are_these_numbers">What are these numbers?</string>
@@ -125,11 +125,11 @@
     <string name="os_version_title">OS Version</string>
     <string name="device_model_title">Device model</string>
     <string name="device_usage_title">DEVICE USAGE</string>
-    <string name="what_are_jscore_numbers">What is a J-Score?</string>
-    <string name="process_list_title">PROCESS LIST</string>
-    <string name="memory_used_title">Memory used</string>
-    <string name="memory_active_title">Memory active</string>
-    <string name="cpu_usage_title">CPU usage</string>
+    <string name="what_are_jscore_numbers">Qu\'est ce qu\'un J-Score?</string>
+    <string name="process_list_title">LISTE DES PROCESSUS</string>
+    <string name="memory_used_title">Memoire utilisée</string>
+    <string name="memory_active_title">Memoire vive</string>
+    <string name="cpu_usage_title">Utilisation du processeur</string>
 
     <!-- ABOUT -->
     <string name="about_general_title">Carat</string>
@@ -141,14 +141,14 @@
         the better it will get.
     </string>
     <string name="about_actions_title">Actions</string>
-    <string name="about_actions_message">How to use Carat</string>
+    <string name="about_actions_message">Comment utiliser Carat</string>
     <string name="about_actions_child_message">Recommended actions are based on our cloud analysis and your current device state. They can greatly improve your battery life.</string>
     <string name="about_bugs_title">Bugs</string>
-    <string name="about_bugs_message">See your bugs</string>
+    <string name="about_bugs_message">Voir vos bugs</string>
     <string name="about_bugs_child_message">Bugs are apps that use a lot of energy on a small number
         of devices, including yours. Restarting a buggy app may improve battery life.</string>
     <string name="about_hogs_title">Hogs</string>
-    <string name="about_hogs_message">See your hogs</string>
+    <string name="about_hogs_message">Voir vos hogs</string>
     <string name="about_hogs_child_message">Hogs are apps that are correlated with higher energy use across
         many devices. Closing hogs may improve battery life.</string>
     <string name="about_collect_title">Collect Data</string>
@@ -193,23 +193,23 @@
 
     <!-- HOG STATISTICS -->
     <string name="packageName">Package:</string>
-    <string name="reported_by">Reported by:</string>
-    <string name="by_users">users</string>
+    <string name="reported_by">Signalé par:</string>
+    <string name="by_users">utilisateur</string>
     <string name="hog_stats_description">Here are the top 200 hogs globally.
         They have a high average energy use across many devices.
         You can search for an app.</string>
-    <string name="query_hint">Type your search here</string>
+    <string name="query_hint">Tapez votre recherche ici</string>
 
     <!-- ACTIONS -->
     <string name="stop_app_title">STOP</string>
-    <string name="app_manager_title">MANAGE</string>
-    <string name="uninstall_app_title">REMOVE</string>
+    <string name="app_manager_title">GERER</string>
+    <string name="uninstall_app_title">SUPPRIMER</string>
     <string name="actions_list_message">Recommended actions are based on our cloud analysis and your current device state. They can greatly improve your battery life.</string>
     <string name="actions_expanded_info">Stopping an application closes it, so it no longer drains your
         battery. Some applications that also run on the background, such as Facebook, may automatically
         start up again after being stopped.\n\nIf an app cannot be stopped, you can still force stop or uninstall it
         from the Application Manager.</string>
-    <string name="no_actions_title">You have no actions.</string>
+    <string name="no_actions_title">Vous n\'avez aucunes actions.</string>
     <string name="no_actions_message">
         You should open Carat regularly so it can take samples of your device state and communicate these to our servers.\n\nWe
         suggest opening Carat every day, or as often as you remember, especially for the first week after installing it.
@@ -224,15 +224,15 @@
 
     <string name="show_information">Show information about actions</string>
     <string name="actions_info_title">Managing applications</string>
-    <string name="action_app_type">Behavior type:</string>
+    <string name="action_app_type">Type d':</string>
     <string name="hog">Hog</string>
     <string name="bug">Bug</string>
 
-    <string name="survey_title">SURVEY</string>
+    <string name="survey_title">SONDAGE</string>
     <string name="survey_action_title">Tell us about yourself!</string>
     <string name="survey_action_subtitle">Participate in Carat questionnaire</string>
-    <string name="submitted">Submitted</string>
-    <string name="thank_you">Thank you!</string>
+    <string name="submitted">Envoyé</string>
+    <string name="thank_you">Merci!</string>
 
     <string name="stopped">STOPPED</string>
     <string name="opening_manager">Opening app manager</string>
@@ -240,7 +240,7 @@
 
     <string name="stopping_failed">Could not stop app</string>string>
 
-    <string name="about">ABOUT</string>
+    <string name="about">A PROPOS</string>
 
     <!-- PROCESS LIST -->
     <string name="version">Version</string>
@@ -248,11 +248,11 @@
     <string name="process_list_message_lp">Process list shows which applications have been recently running. More active applications and services usually leads to worse battery life.</string>
 
     <!-- PREFERENCES LIST -->
-    <string name="show_all">Show all</string>
-    <string name="five">Impact &lt; 5 min</string>
-    <string name="ten">Impact &lt; 10 min</string>
-    <string name="twenty">Impact &lt; 20 min</string>
-    <string name="hour">Impact &lt; 1 hour</string>
+    <string name="show_all">Tout montrer</string>
+    <string name="five">Impacte &lt; 5 min</string>
+    <string name="ten">Impacte &lt; 10 min</string>
+    <string name="twenty">Impacte &lt; 20 min</string>
+    <string name="hour">Impacte &lt; 1 hour</string>
 
     <string name="num0" translatable="false">0</string>
     <string name="num5" translatable="false">5</string>
@@ -263,41 +263,28 @@
     <string name="hogs_camel">Hogs</string>
     <string name="bugs_camel">Bugs</string>
     <string name="well_behaved_caps">WELL-BEHAVED</string>
-    <!--
-These are the same for all languages. When translating,
-delete these from your file.
-    -->
-    <string name="app_name" translatable="false">Carat</string>
 
-    <color name="black">#000000</color>
-
-    <string name="blackBackground" translatable="false">false</string>
-
-    <!-- <string name="confidence">Confidence:</string> -->
-
-    <!-- These will be different -->
-
-    <string name="calibrating">Calibrating</string>
+    <string name="calibrating">Callibration</string>
 
     <string name="helpcarat">Help Carat collect data</string>
     <string name="helpcarat_subtitle">Get better results</string>
     <string name="helpcarat_expanded_title">How to help Carat collect data?</string>
 
     <!-- Questionnaire -->
-    <string name="other">Other</string>
+    <string name="other">Autres</string>
     <string name="writeHere">Write here</string>
-    <string name="submit">Submit</string>
-    <string name="continueText">continue</string>
-    <string name="nextQuestion">Next question</string>
-    <string name="participationThanks">Questionnaire submitted!</string>
-    <string name="backToApp">≪ BACK TO APPLICATION</string>
+    <string name="submit">Envoyer</string>
+    <string name="continueText">continuer</string>
+    <string name="nextQuestion">Question suivante</string>
+    <string name="participationThanks">Questionnaire envoyé!</string>
+    <string name="backToApp">≪ RETOUR A L\'APPLICATION</string>
     <string name="question">QUESTION</string>
-    <string name="share">Share …</string>
+    <string name="share">Paratager</string>
     <string name="sharetitle">Improve your battery life with Carat!</string>
-    <string name="sharetext1">Carat is improving my battery life</string>
-    <string name="sharetext2">What\'s yours? \n\nFind out here: \nhttp://carat.cs.helsinki.fi/</string>
-    <string name="myjscoreis">My J-Score is %1$d!</string>
-    <string name="findoutmore">Find out more: \nhttp://carat.cs.helsinki.fi/</string>
+    <string name="sharetext1">Carat améliore votre autonomie</string>
+    <string name="sharetext2">Quel est le votre? Découvré le ici: \nhttp://carat.cs.helsinki.fi/</string>
+    <string name="myjscoreis">Mon J-Score est %1$d!</string>
+    <string name="findoutmore">En savoir plus:\nhttp://carat.cs.helsinki.fi/</string>
 
     <!-- Navigation drawer items (tabs) -->
     <string-array name="drawer_items">
@@ -307,41 +294,41 @@ delete these from your file.
         <item>Bugs</item>
         <item>Hogs</item>
         <item>Carat Settings</item>
-        <item>About</item>
+        <item></item>
     </string-array>
 
     <!-- Updating etc -->
     <string name="samplesreported">Samples reported</string>
     <string name="updating">Updating</string>
-    <string name="updated">Updated </string>
+    <string name="updated">A jour </string>
     <string name="neverupdated">Never updated</string>
-    <string name="updatedjustnow">Updated just now</string>
+    <string name="updatedjustnow">Mis à jour à l\'instant</string>
     <string name="didntget">got no</string>
     <string name="blacklist">Blacklist</string>
     <string name="finishing">Finishing up</string>
 
     <!--- Time quantity strings -->
-    <string name="ago">ago</string>
+    <string name="ago">il y a</string>
     <plurals name="weeks">
-        <item quantity="one">a week</item>
-        <item quantity="other">%d weeks</item>
+        <item quantity="one">une semaine</item>
+        <item quantity="other">%d semaines</item>
     </plurals>
     <plurals name="days">
-        <item quantity="one">a day</item>
-        <item quantity="other">%d days</item>
+        <item quantity="one">un jour</item>
+        <item quantity="other">%d jours</item>
     </plurals>
     <plurals name="hours">
-        <item quantity="one">an hour</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="one">une heure</item>
+        <item quantity="other">%d heures</item>
     </plurals>
     <plurals name="minutes">
-        <item quantity="one">a minute</item>
+        <item quantity="one">une minute</item>
         <item quantity="other">%d minutes</item>
     </plurals>
 
-    <string name="impact">Impact:</string>
-    <string name="expected">Battery life impact:</string>
-    <string name="priority">Priority:</string>
+    <string name="impact">Impacte:</string>
+    <string name="expected">Impacte sur l\'autonomie:</string>
+    <string name="priority">Priorité:</string>
     <string name="priorityDefault">Not running</string>
     <string name="prioritynotrunning">Not running</string>
     <string name="priorityforeground">Current app</string>
@@ -353,9 +340,9 @@ delete these from your file.
 
     <!-- Settings screen related -->
 
-    <string name="wifisettings">Wifi Settings</string>
-    <string name="opening">Opening </string>
-    <string name="notsupported">is not supported on this device, sorry.</string>
+    <string name="wifisettings">Paramètres Wifi</string>
+    <string name="opening">Ouverture </string>
+    <string name="notsupported">n\'est pas supporté sur cet appareil, désolé.</string>
 
     <!-- Actions -->
 
@@ -363,16 +350,16 @@ delete these from your file.
 
     <!-- Detail view -->
 
-    <string name="samples">Samples:</string>
-    <string name="samplesWithout">Samples without:</string>
-    <string name="error">Error:</string>
+    <string name="samples">Exemple:</string>
+    <string name="samplesWithout">Exemple sans:</string>
+    <string name="error">Erreur:</string>
 
     <!-- The pie chart -->
 
     <!-- The dialog to enable Internet -->
-    <string name="dialog_text">Carat needs an Internet connection to update your personalized reports.</string>
-    <string name="dialog_enable">Enable Wifi</string>
-    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_text">Carat a besoin d\'une connexion internet pour mettre à jour vos rapports personnalisés.</string>
+    <string name="dialog_enable">Activer le Wifi</string>
+    <string name="dialog_cancel">Annuler</string>
 
     <!-- error messages -->
 
@@ -390,12 +377,7 @@ delete these from your file.
     <!-- Hog threshold values used by the system, do not translate -->
 
     <!-- SharedPreference keys -->
-    <string name="hog_hide_threshold" translatable="false">hoghidethreshold</string>
-    <string name="wifi_only_key" translatable="false">wifionly</string>
-    <string name="installation_key" translatable="false">installdate</string>
-    <string name="disable_questionnaires" translatable="false">noQuestionnaires</string>
-    <string name="disable_notifications" translatable="false">noNotifications</string>
-    <string name="enable_background" translatable="false">bgRefresh</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
 

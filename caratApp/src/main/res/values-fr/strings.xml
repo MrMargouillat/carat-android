@@ -219,8 +219,8 @@
 
     <!-- Detail view -->
 
-    <string name="samples">Echantillon:</string>
-    <string name="samplesWithout">Echantillon sans:</string>
+    <string name="samples">Mesures:</string>
+    <string name="samplesWithout">Mesures sans:</string>
     <string name="error">Erreur:</string>
 
     <!-- The pie chart -->
@@ -259,4 +259,5 @@
     <string name="charging_not_collected">Aucune donnée ne sera recueillie</string>
     <string name="helpcarat_expanded_title">Comment aider Carat à avoir de meilleurs résultats?</string>
     <string name="helpcarat">Aider Carat à collecter des données</string>
+    <string name="samplesreported">Mesures signalées</string>
 </resources>

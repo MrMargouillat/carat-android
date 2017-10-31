@@ -254,11 +254,7 @@
     <string name="twenty">Impacte &lt; 20 min</string>
     <string name="hour">Impacte &lt; 1 hour</string>
 
-    <string name="num0" translatable="false">0</string>
-    <string name="num5" translatable="false">5</string>
-    <string name="num10" translatable="false">10</string>
-    <string name="num20" translatable="false">20</string>
-    <string name="num60" translatable="false">60</string>
+
 
     <string name="hogs_camel">Hogs</string>
     <string name="bugs_camel">Bugs</string>

@@ -138,9 +138,7 @@
     <string name="calibrating">Callibration</string>
 
 
-    <string name="helpcarat">Help Carat collect data</string>
     <string name="helpcarat_subtitle">Obtenir de meilleurs résultats</string>
-    <string name="helpcarat_expanded_title">Comment aider Carat à collecter des données?</string>
 
     <!-- Questionnaire -->
     <string name="other">Autres</string>

@@ -4,72 +4,20 @@
     <!-- NEW -->
 
     <!-- EXPLANATIONS -->
-    <string name="jscore_explanation">The J-Score represents the percentile battery life you see relative
-        to all other devices being measured by Carat. So, if you have a J-Score of 50, that means
-        your expected battery life is better than half of our users; a score of 99 means you have
-        better battery life than 99 of our users.
-        Of course, a single number does not provide a complete description of your battery life.
-        A low J-Score could mean that your device is using a big battery inefficiently or a small
-        battery with average efficiency. Similarly, a high J-Score could simply mean that you don\'t
-        use your device heavily. Carat computes a huge variety of statistics, and the J-Score is
-        just one of them.
-    </string>
-    <string name="memory_explanation">
-        The operating system (OS) classifies your device\'s physical memory as either used or free.
-        If memory is used, it means there is currently data there that belongs to some process
-        (like one of your apps or the OS, itself). When the device runs
-        out of free memory, it needs
-        to make room so it can store new data, which means closing apps that might be running in the
-        background or asking your apps to throw away data they aren\'t using.
-        The OS then further subcategorizes used memory as being either active or inactive,
-        depending on whether it was accessed recently or not, respectively. When the OS runs out of
-        free memory, it starts reclaiming inactive memory.
-        When you open a bunch of apps, the fraction of used memory may increase; when the apps you
-        have running are working with lots of data (often an energy-intensive task), the fraction
-        of active memory may increase. The OS also preloads often used applications into memory,
-        shortening wait times.
-    </string>
-    <string name="cpu_usage_explanation">CPU Usage shows a percentage of how much of your device\'s
-        processing power is currently being used. High percentages mean that the device is fully loaded
-        in terms of processing power, such as when playing games or installing new applications.</string>
-    <string name="well_behaved_explanation">
-        Well-behaved apps use an appropriate amount of energy and don\'t usually require user intervention.
-    </string>
     <string name="jscore_dialog_title">J-SCORE</string>
-    <string name="what_are_these_numbers_title">What are these numbers?</string>
-    <string name="what_are_these_numbers_explanation">Expected benefit is the amount of battery life
-        that fixing the hog/bug is expected to yield. Fixing hogs means killing the app and using
-        it less, while fixing a bug may mean just restarting the app, updating it to the latest version, or changing some of the app\'s settings.
-        <b>Samples</b> shows how many measurements we have of this app, across all users. More samples means the app is common and its energy use well known.
-    </string>
+    <string name="what_are_these_numbers_title">Que sont ces nombres?</string>
 
     <!-- TUTORIAL -->
-    <string name="tutorial_accept">ACCEPT</string>
-    <string name="tutorial_eula_text">By proceeding you accept the EULA and privacy policy.</string>
-    <string name="tutorial_fragment_main_title">Carat Collaborative Energy Diagnosis</string>
-    <string name="tutorial_fragment_main_message">Carat is a research project of the University of Helsinki,
-        originally created in collaboration with the AMP Lab at UC Berkeley,
-        that helps detect and diagnose battery problems, giving you personalized recommendations.</string>
+    <string name="tutorial_accept">ACCEPTER</string>
     <string name="tutorial_fragment_bugs_title">BUGS</string>
-    <string name="tutorial_fragment_bugs_message">Bugs are apps that use a lot of energy on a small
-        number of devices, including yours. Restarting a buggy app may improve battery life.</string>
     <string name="tutorial_fragment_hogs_title">HOGS</string>
-    <string name="tutorial_fragment_hogs_message">Hogs are applications on your device that we have identified as energy inefficient among you and other users in our analysis</string>
-    <string name="tutorial_fragment_eula_title">EULA</string>
-    <string name="tutorial_fragment_eula_message">
-            Carat periodically collects generic information about your device and how you are using it.
-            In order to use this application, you need to accept the End-user License Agreement.
-    </string>
-    <string name="tutorial_fragment_eula_link"><b><u>Read EULA</u></b></string>
 
     <!-- MENU -->
 
     <!-- ACTIVITIES -->
-    <string name="title_activity_tutorial">TutorialActivity</string>
-    <string name="save_accept_eula">save_accept_eula</string>
 
     <!-- DASHBOARD -->
-    <string name="dashboard_text_loading">Updating status</string>
+    <string name="dashboard_text_loading">Mise à jour du status</string>
 
     <string name="bugs_amount">7</string>
     <string name="hogs_amount">4</string>
@@ -83,7 +31,7 @@
     <string name="actions">ACTIONS</string>
     <string name="settings">PARAMETRES</string>
 
-    <string name="active_battery_life">Active Battery Life</string>
+    <string name="active_battery_life">Autonomie active</string>
     <string name="battery_life_value">10h 23m</string>
     <string name="my_device">MON APPAREIL</string>
 
@@ -91,40 +39,30 @@
     <string name="menu_wifi_only">Utiliser uniquement le Wfi</string>
     <string name="menu_wifi_desc">Les données mobiles ne seront pas utilisées</string>
     <string name="menu_disable_notifications">Désactiver les notifications</string>
-    <string name="menu_notifications_desc">Notifications will not be shown</string>
-    <string name="menu_disable_questionnaires">Disable questionnaires</string>
-    <string name="menu_questionnaires_desc">Hide questionnaires from actions</string>
-    <string name="menu_allow_background">Automatic updates</string>
-    <string name="menu_background_desc">Update in the background</string>
-    <string name="menu_hide_apps">Hide apps by impact</string>
+    <string name="menu_notifications_desc">Les notifications ne seront pas montrées</string>
+    <string name="menu_disable_questionnaires">Désactiver les questionnaires</string>
+    <string name="menu_questionnaires_desc">Cacher les questionnaires des actions</string>
+    <string name="menu_allow_background">Mise à jour automatiques</string>
+    <string name="menu_background_desc">Mettre à jour en arrière plan</string>
+    <string name="menu_hide_apps">Cacher les applications par impacte</string>
     <string name="menu_feedback">Envoyé un feedback</string>
     <string name="menu_settings">Paramètres</string>
     <string name="menu_about">A propos</string>
     <string name="menu_website">Visiter la page d\'accueil</string>
 
     <!-- BUGS -->
-    <string name="what_are_these_numbers">What are these numbers?</string>
-    <string name="bug_list_message">Bugs are apps that use a lot of energy on a small number of devices, including yours.
-        Restarting a buggy app may improve battery life.</string>
+    <string name="what_are_these_numbers">Que sont ces nombres?</string>
 
-    <string name="no_bugs_title">You have no bugs.</string>
-    <string name="no_bugs_message">Please check back in a week.\n\n
-        If your apps are behaving normally, there will be no bugs here.\n\n
-        When an app starts to use significantly more energy on your device than on others, it will show up here.</string>
+    <string name="no_bugs_title">Vous n\'avez aucun bugs.</string>
 
     <!-- HOGS -->
-    <string name="hog_list_message">Hogs are applications on your device that we have identified as energy inefficient among you and other users in our analysis.</string>
 
-    <string name="no_hogs_title">You have no hogs.</string>
-    <string name="no_hogs_message">Please check back in a week.\n\n
-        If your apps are behaving normally, there will be no hogs here.\n\n
-        When an app starts to use significantly more energy on your device than on others, it will show up here.</string>
+    <string name="no_hogs_title">Vous n\'avez aucun hogs.</string>
 
     <!-- MY DEVICE -->
-    <string name="carat_id_title">Carat ID</string>
-    <string name="os_version_title">OS Version</string>
-    <string name="device_model_title">Device model</string>
-    <string name="device_usage_title">DEVICE USAGE</string>
+    <string name="carat_id_title">ID Carat</string>
+    <string name="os_version_title">Version du système</string>
+    <string name="device_model_title">Numéro de moèle</string>
     <string name="what_are_jscore_numbers">Qu\'est ce qu\'un J-Score?</string>
     <string name="process_list_title">LISTE DES PROCESSUS</string>
     <string name="memory_used_title">Memoire utilisée</string>
@@ -133,142 +71,80 @@
 
     <!-- ABOUT -->
     <string name="about_general_title">Carat</string>
-    <string name="about_general_message">General about</string>
-    <string name="about_general_child_message">Carat is a research project of the University of Helsinki,
-        originally created in collaboration with the AMP Lab at UC Berkeley,
-        that helps detect and diagnose battery problems, giving you personalized recommendations.
-        Carat is under development, so please check back often to see new results. The more you use it,
-        the better it will get.
-    </string>
     <string name="about_actions_title">Actions</string>
     <string name="about_actions_message">Comment utiliser Carat</string>
-    <string name="about_actions_child_message">Recommended actions are based on our cloud analysis and your current device state. They can greatly improve your battery life.</string>
     <string name="about_bugs_title">Bugs</string>
     <string name="about_bugs_message">Voir vos bugs</string>
-    <string name="about_bugs_child_message">Bugs are apps that use a lot of energy on a small number
-        of devices, including yours. Restarting a buggy app may improve battery life.</string>
     <string name="about_hogs_title">Hogs</string>
     <string name="about_hogs_message">Voir vos hogs</string>
-    <string name="about_hogs_child_message">Hogs are apps that are correlated with higher energy use across
-        many devices. Closing hogs may improve battery life.</string>
-    <string name="about_collect_title">Collect Data</string>
-    <string name="about_collect_message">Info what and how Carat collects data</string>
-    <string name="about_collect_child_message">Carat collects and reports generic usage statistics about your phone that allow it to do its job;
-        this process involves absolutely no personally identifying information. Period.</string>
-    <string name="about_battery_title">Active Battery Life</string>
-    <string name="about_battery_message">What does Active Battery Life mean?</string>
-    <string name="about_battery_child_message">Active Battery Life approximates the amount of
-        time your battery would last if you started from a full charge and discharged the battery at a
-        rate that was the average of what Carat observed on your device during active use.
-        This average rate excludes times that your device was idle and, as always, cannot account for
-        behavior when Carat was not running.
-        You may find that this number is much higher or lower than what you expect, but it more closely
-        summarizes, statistically speaking, the intensity of your active device use.
-    </string>
+    <string name="about_collect_message">Info sur comment et quels données Carat collecte</string>
+    <string name="about_battery_title">Autonomie active</string>
+    <string name="about_battery_message">Que signifie l\'autonomie active?</string>
 
     <!-- GLOBAL RESULTS -->
-    <string name="global_results">GLOBAL RESULTS</string>
-    <string name="show_global">WORLDWIDE</string>
-    <string name="all_reports">ALL REPORTS</string>
-    <string name="global_general_statistics">GENERAL STATISTICS</string>
-    <string name="global_general_all_message">Out of 431,882 installed applications, 9 are energy-intensive
-        (Hogs in the Carat App) and 4 are energy anomalies (Bugs).</string>
-    <string name="global_general_android_message">Out of 295,665 installed Android applications,
-        12 are energy-intensive and 4 are energy anomalies.</string>
-    <string name="global_general_ios_message">Out of 136,217 installed iOS applications,
-        2 are energy-intensive and 4 are energy anomalies.</string>
-    <string name="global_general_users_message">Out of 644,024 users, 49 have at least a
-        single energy anomaly.</string>
-    <string name="global_general_popular_title">POPULAR DEVICE MODELS</string>
+    <string name="global_results">RESULTATS GLOBAUX</string>
+    <string name="show_global">MONDIALES</string>
+    <string name="all_reports">TOUT LES RAPPORTS</string>
+    <string name="global_general_statistics">STATISTIQUES GENERALES</string>
+    <string name="global_general_popular_title">MODELES POPULAIRES</string>
     <string name="global_general_android">Android</string>
-    <string name="well_behaved">Well-behaved</string>
-    <string name="out_of"><![CDATA[Out of ]]></string>
-    <string name="all_installed">installed applications,</string>
-    <string name="hog_intensity">are energy-intensive (Hogs in the Carat App) and</string>
-    <string name="bug_intensity">are energy anomalies (Bugs).</string>
-    <string name="android_installed">installed Android applications,</string>
-    <string name="ios_installed">installed iOS applications,</string>
-    <string name="users">users,</string>
-    <string name="user_intensity">have at least a single energy anomaly.</string>
 
     <!-- HOG STATISTICS -->
-    <string name="packageName">Package:</string>
+    <string name="packageName">Paquet:</string>
     <string name="reported_by">Signalé par:</string>
-    <string name="by_users">utilisateur</string>
-    <string name="hog_stats_description">Here are the top 200 hogs globally.
-        They have a high average energy use across many devices.
-        You can search for an app.</string>
+    <string name="by_users">utilisateurs</string>
     <string name="query_hint">Tapez votre recherche ici</string>
 
     <!-- ACTIONS -->
-    <string name="stop_app_title">STOP</string>
+    <string name="stop_app_title">ARRETER</string>
     <string name="app_manager_title">GERER</string>
     <string name="uninstall_app_title">SUPPRIMER</string>
-    <string name="actions_list_message">Recommended actions are based on our cloud analysis and your current device state. They can greatly improve your battery life.</string>
-    <string name="actions_expanded_info">Stopping an application closes it, so it no longer drains your
-        battery. Some applications that also run on the background, such as Facebook, may automatically
-        start up again after being stopped.\n\nIf an app cannot be stopped, you can still force stop or uninstall it
-        from the Application Manager.</string>
     <string name="no_actions_title">Vous n\'avez aucunes actions.</string>
-    <string name="no_actions_message">
-        You should open Carat regularly so it can take samples of your device state and communicate these to our servers.\n\nWe
-        suggest opening Carat every day, or as often as you remember, especially for the first week after installing it.
-        It can take a week or more after you install Carat for it to collect enough data to begin generating personalized reports.\n\nMake
-        sure you give Carat a chance to communicate with our servers (i.e., open it when you have internet connectivity).
-        The more often you open the app, the more quickly it will generate reports, the more information those reports will contain,
-        and the more accurate the recommendations will be.\n\nCarat
-        does not run as a background service, which is why it needs your help.\n\nThe
-        app subscribes to battery level change notifications that let it take samples when it\'s not in the foreground,
-        but Carat cannot reopen itself after it is closed (to free up resources) or after the device is restarted.
-    </string>
 
-    <string name="show_information">Show information about actions</string>
-    <string name="actions_info_title">Managing applications</string>
-    <string name="action_app_type">Type d':</string>
+    <string name="actions_info_title">Gerer les applications</string>
+    <string name="action_app_type">Type d\'action:</string>
     <string name="hog">Hog</string>
     <string name="bug">Bug</string>
 
     <string name="survey_title">SONDAGE</string>
-    <string name="survey_action_title">Tell us about yourself!</string>
-    <string name="survey_action_subtitle">Participate in Carat questionnaire</string>
+    <string name="survey_action_title">Parlez-nous de vous!</string>
+    <string name="survey_action_subtitle">Participer au sondage de Carat</string>
     <string name="submitted">Envoyé</string>
     <string name="thank_you">Merci!</string>
 
-    <string name="stopped">STOPPED</string>
-    <string name="opening_manager">Opening app manager</string>
-    <string name="opening_manager_failed">Opening app manager failed</string>
+    <string name="stopped">ARRETE</string>
+    <string name="opening_manager">Ouverture du gestionnaire d\'applications</string>
+    <string name="opening_manager_failed">Ouverture du gestionnaire d\'applications ratée</string>
 
-    <string name="stopping_failed">Could not stop app</string>string>
+    <string name="stopping_failed">Impossible d\'arrêter l\'app</string>string>
 
     <string name="about">A PROPOS</string>
 
     <!-- PROCESS LIST -->
     <string name="version">Version</string>
-    <string name="process_list_message">The process list shows currently running applications and services. More active applications and services usually leads to worse battery life.</string>
-    <string name="process_list_message_lp">Process list shows which applications have been recently running. More active applications and services usually leads to worse battery life.</string>
 
     <!-- PREFERENCES LIST -->
     <string name="show_all">Tout montrer</string>
     <string name="five">Impacte &lt; 5 min</string>
     <string name="ten">Impacte &lt; 10 min</string>
     <string name="twenty">Impacte &lt; 20 min</string>
-    <string name="hour">Impacte &lt; 1 hour</string>
+    <string name="hour">Impacte &lt; 1 heure</string>
 
 
 
     <string name="hogs_camel">Hogs</string>
     <string name="bugs_camel">Bugs</string>
-    <string name="well_behaved_caps">WELL-BEHAVED</string>
 
     <string name="calibrating">Callibration</string>
 
+
     <string name="helpcarat">Help Carat collect data</string>
-    <string name="helpcarat_subtitle">Get better results</string>
-    <string name="helpcarat_expanded_title">How to help Carat collect data?</string>
+    <string name="helpcarat_subtitle">Obtenir de meilleurs résultats</string>
+    <string name="helpcarat_expanded_title">Comment aider Carat à collecter des données?</string>
 
     <!-- Questionnaire -->
     <string name="other">Autres</string>
-    <string name="writeHere">Write here</string>
+    <string name="writeHere">Ecrire ici</string>
     <string name="submit">Envoyer</string>
     <string name="continueText">continuer</string>
     <string name="nextQuestion">Question suivante</string>
@@ -276,32 +152,31 @@
     <string name="backToApp">≪ RETOUR A L\'APPLICATION</string>
     <string name="question">QUESTION</string>
     <string name="share">Paratager</string>
-    <string name="sharetitle">Improve your battery life with Carat!</string>
+    <string name="sharetitle">Améliorez votre autonomie avec Carat!</string>
     <string name="sharetext1">Carat améliore votre autonomie</string>
     <string name="sharetext2">Quel est le votre? Découvré le ici: \nhttp://carat.cs.helsinki.fi/</string>
     <string name="myjscoreis">Mon J-Score est %1$d!</string>
     <string name="findoutmore">En savoir plus:\nhttp://carat.cs.helsinki.fi/</string>
 
     <!-- Navigation drawer items (tabs) -->
-    <string-array name="drawer_items">
-        <item>Summary</item>
-        <item>Actions</item>
-        <item>My Device</item>
-        <item>Bugs</item>
-        <item>Hogs</item>
-        <item>Carat Settings</item>
-        <item></item>
-    </string-array>
+    <!--<string-array name="drawer_items">-->
+        <!--<item>Summary</item>-->
+        <!--<item>Actions</item>-->
+        <!--<item>My Device</item>-->
+        <!--<item>Bugs</item>-->
+        <!--<item>Hogs</item>-->
+        <!--<item>Carat Settings</item>-->
+        <!--<item></item>-->
+    <!--</string-array>-->
 
     <!-- Updating etc -->
-    <string name="samplesreported">Samples reported</string>
-    <string name="updating">Updating</string>
+    <!--<string name="samplesreported">Samples reported</string>-->
+    <string name="updating">Mise à jour en cours</string>
     <string name="updated">A jour </string>
-    <string name="neverupdated">Never updated</string>
+    <string name="neverupdated">Jamais mis à jour</string>
     <string name="updatedjustnow">Mis à jour à l\'instant</string>
-    <string name="didntget">got no</string>
     <string name="blacklist">Blacklist</string>
-    <string name="finishing">Finishing up</string>
+    <string name="finishing">Finalisation</string>
 
     <!--- Time quantity strings -->
     <string name="ago">il y a</string>
@@ -325,12 +200,12 @@
     <string name="impact">Impacte:</string>
     <string name="expected">Impacte sur l\'autonomie:</string>
     <string name="priority">Priorité:</string>
-    <string name="priorityDefault">Not running</string>
-    <string name="prioritynotrunning">Not running</string>
-    <string name="priorityforeground">Current app</string>
-    <string name="prioritybackground">Running</string>
-    <string name="priorityservice">Background Service</string>
-    <string name="priorityperceptible">Running</string>
+    <string name="priorityDefault">Inactive</string>
+    <string name="prioritynotrunning">Inactive</string>
+    <string name="priorityforeground">App actuelle</string>
+    <string name="prioritybackground">En cours d\'exécution</string>
+    <string name="priorityservice">Tâche de fond</string>
+    <string name="priorityperceptible">En cours d\'exécution</string>
     <string name="priorityvisible">Visible</string>
     <string name="prioritysuggestion">Suggestion</string>
 
@@ -346,8 +221,8 @@
 
     <!-- Detail view -->
 
-    <string name="samples">Exemple:</string>
-    <string name="samplesWithout">Exemple sans:</string>
+    <string name="samples">Echantillon:</string>
+    <string name="samplesWithout">Echantillon sans:</string>
     <string name="error">Erreur:</string>
 
     <!-- The pie chart -->
@@ -377,21 +252,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="title_activity_dashboard">DASHBOARD</string>
-    <string name="battery_cost">Impact:</string>
-    <string name="stop">Stop</string>
-    <string name="manage">Manage</string>
-    <string name="remember_my_choice">Remember my choice</string>
-    <string name="prompt_usage_stats">Change usage access</string>
-    <string name="monitor_apps">Open settings</string>
-    <string name="enable_later">You can enable this option in the settings.</string>
-    <string name="return_with_back">Enable the permission and return with the back button</string>
-    <string name="allow_usagestats">Allow Carat to monitor running applications by enabling usage access in settings.</string>
-    <string name="permission_request">Permission request</string>
+    <string name="battery_cost">Impacte:</string>
+    <string name="manage">Gérer</string>
+    <string name="remember_my_choice">Se souvenir de mon choix</string>
+    <string name="permission_request">Demande de permission</string>
     <string name="service">Service</string>
     <string name="services">Services</string>
-    <string name="activity">View</string>
-    <string name="activities">Views</string>
-    <string name="disable_charging_mode">Disable charging measurements</string>
-    <string name="charging_not_collected">No data will be collected</string>
+    <string name="charging_not_collected">Aucune donnée ne sera recueillie</string>
+    <string name="helpcarat_expanded_title">Comment aider Carat à avoir de meilleurs résultats?</string>
+    <string name="helpcarat">Aider Carat à collecter des données</string>
 </resources>

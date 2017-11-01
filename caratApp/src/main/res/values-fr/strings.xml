@@ -156,19 +156,9 @@
     <string name="myjscoreis">Mon J-Score est %1$d!</string>
     <string name="findoutmore">En savoir plus:\nhttp://carat.cs.helsinki.fi/</string>
 
-    <!-- Navigation drawer items (tabs) -->
-    <!--<string-array name="drawer_items">-->
-        <!--<item>Summary</item>-->
-        <!--<item>Actions</item>-->
-        <!--<item>My Device</item>-->
-        <!--<item>Bugs</item>-->
-        <!--<item>Hogs</item>-->
-        <!--<item>Carat Settings</item>-->
-        <!--<item></item>-->
-    <!--</string-array>-->
+
 
     <!-- Updating etc -->
-    <!--<string name="samplesreported">Samples reported</string>-->
     <string name="updating">Mise à jour en cours</string>
     <string name="updated">A jour </string>
     <string name="neverupdated">Jamais mis à jour</string>
@@ -260,4 +250,14 @@
     <string name="helpcarat_expanded_title">Comment aider Carat à avoir de meilleurs résultats?</string>
     <string name="helpcarat">Aider Carat à collecter des données</string>
     <string name="samplesreported">Mesures signalées</string>
+    <string name="about_general_message">Infos génrales</string>
+    <string name="about_general_child_message">"Carat est un programme de recherche de d'Université de Helsinki, originellement créée avec AMP Lab à l'Université de Berkley, qui aide àdétecter et diagnostiquer les problèmes d'autonomie, "</string>
+    <string name="about_actions_child_message">Les actions recommendées sont basées sur l\'analyse des données faites par nos serveurs ainsi que l\'état actuel de votre appareil. Elles peuvent grandement améliorer votre autonomie.</string>
+    <string name="actions_list_message">Les actions recommendées sont basées sur l\'analyse des données faites par nos serveurs ainsi que l\'état actuel de votre appareil. Elles peuvent grandement améliorer votre autonomie.</string>
+    <string name="jscore_explanation">Le J-Score représente votre pourcentage d\'autonomie par rapport aux atutres appareils mesurés par Carat. Par exemple, si vous avez un J-Score de 50; cela signifie que votre autonomie attendue est meilleure que celle de la moitié des autres utilisateurs.; un score de 99 signifie qu\'il est meilleur que 99% des utilisateurs. Bien sûr, un seul nombre ne donne pas une description complète de votre autonomie. Un J-Score faible pourrait bien signifier que votre appareil utilise une grosse batterie de manière inefficace ou bien, une petite avec une efficacité moyenne. De la même manière, un J-Score élevé pourrait simplement signifier que vous n’utilisez pas votre appareil de manière très intensive.</string>
+    <string name="about_collect_title">Collecte des données</string>
+    <string name="tutorial_fragment_hogs_message">Les,</string>
+    <string name="disable_charging_mode">Désactiver les mesures de chargement</string>
+    <string name="monitor_apps">Ouvrir les paramètres</string>
+    <string name="cpu_usage_explanation">L’utilisation du processeur montre la quantité de la force de calcules de votre appareil est actuellement utilisée. Un haut pourcentage signifie que votre appareil est complètement utilisé en terme de puissance.</string>
 </resources>
